@@ -8,6 +8,7 @@
         <div id="menu-content">
           <div><router-link to="/">Generator</router-link></div>
           <div><router-link to="/quotes">My Quotes</router-link></div>
+          <div><router-link to="/about">About</router-link></div>
         </div>
       </div>
       <router-view />
@@ -62,7 +63,7 @@ h1 {
 }
 
 #menu-content {
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
